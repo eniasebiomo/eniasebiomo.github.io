@@ -248,6 +248,11 @@ footer {
     padding: 100px 0;
 }
 
+footer .footer-col {
+    margin-bottom: 50px;
+}
+
+
 .btn-social {
     display: inline-block;
     width: 45px;
