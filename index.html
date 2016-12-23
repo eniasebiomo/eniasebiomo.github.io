@@ -4,423 +4,135 @@
 <head>
 
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Eni J. Asebiomo</title>
-    
-    <link rel="shortcut icon" href="/rocket.ico" type="image/x-icon">
-    <link rel="icon" href="/rocket.ico" type="image/x-icon">
+    <title>Vitality</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 
-    <!-- Custom CSS -->
-    <link href="css/stylish-portfolio.css" rel="stylesheet">
+    <!-- Default Fonts (IMPORTANT: Delete these if you are using a different body style!) -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,600,500,700,800,900' rel='stylesheet' type='text/css'>
 
-    <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <!-- Modern Style Fonts (IMPORTANT: Delete these unless you are using body.modern!) -->
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Cardo:400,400italic,700' rel='stylesheet' type='text/css'>
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!-- Vintage Style Fonts (IMPORTANT: Delete these unless you are using body.vintage!) -->
+    <link href='https://fonts.googleapis.com/css?family=Sanchez:400italic,400' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Cardo:400,400italic,700' rel='stylesheet' type='text/css'>
+
+    <!-- Plugin CSS -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="vendor/owl-carousel/owl.carousel.css" rel="stylesheet" type="text/css">
+    <link href="vendor/owl-carousel/owl.theme.css" rel="stylesheet" type="text/css">
+    <link href="vendor/owl-carousel/owl.transitions.css" rel="stylesheet" type="text/css">
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css">
+    <link href="vendor/formstone/background.css" rel="stylesheet" type="text/css">
+    <link href="vendor/animate.css/animate.min.css" rel="stylesheet" type="text/css">
+    <link href="vendor/device-mockups/device-mockups.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Vitality Theme CSS -->
+    <!-- INSTRUCTIONS: Uncomment the color scheme you want to use. Red is chosen by default. -->
+    <!-- <link href="css/vitality-red.css" rel="stylesheet" type="text/css">-->
+    <!-- <link href="css/vitality-aqua.css" rel="stylesheet" type="text/css"> -->
+    <link href="css/vitality-blue.css" rel="stylesheet" type="text/css">
+    <!-- <link href="css/vitality-green.css" rel="stylesheet" type="text/css"> -->
+    <!-- <link href="css/vitality-orange.css" rel="stylesheet" type="text/css"> -->
+    <!-- <link href="css/vitality-pink.css" rel="stylesheet" type="text/css"> -->
+    <!-- <link href="css/vitality-purple.css" rel="stylesheet" type="text/css"> -->
+    <!-- <link href="css/vitality-tan.css" rel="stylesheet" type="text/css"> -->
+    <!-- <link href="css/vitality-turquoise.css" rel="stylesheet" type="text/css"> -->
+    <!-- <link href="css/vitality-yellow.css" rel="stylesheet" type="text/css"> -->
+
+    <!-- IE8 support for HTML5 elements and media queries -->
     <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
 
 </head>
 
-<body>
+<body id="page-top">
 
     <!-- Navigation -->
-    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
-    <nav id="sidebar-wrapper">
-        <ul class="sidebar-nav">
-            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
-            <li class="sidebar-brand">
-                <a href="#top">Eni J. Asebiomo</a>
-            </li>
-            <li>
-                <a href="#top">Home</a>
-            </li>
-            <li>
-                <a href="#about">About</a>
-            </li>
-            <li>
-                <a href="#services">Projects</a>
-            </li>
-            <li>
-                <a href="#portfolio">Portfolio</a>
-            </li>
-            <li>
-                <a href="#contact">Contact</a>
-            </li>
-        </ul>
+    <!-- Note: navbar-default and navbar-inverse are both supported with this theme. -->
+    <nav class="navbar navbar-inverse navbar-fixed-top navbar-expanded">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <i class="fa fa-bars"></i> Menu
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    Eni J. Asebiomo
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a class="page-scroll" href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#services">Services</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#process">Process</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#work">Work</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
     </nav>
 
     <!-- Header -->
-    <header id="top" class="header">
-        <div class="text-vertical-center">
-            
-            <div id="headerTitle">
-                <h1>Eni J. Asebiomo</h1>
-                <h3>Student Engineer • Interdisciplinary Aficionado • Life Enthusiast</h3>
-                <br>
-            </div>
-            <br>
-            <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
+    <header style="background-image: url('img/creative/backgrounds/bg-header.jpg');">
+        <div class="intro-content">
+            <img src="img/creative/profile.svg" class="img-responsive img-centered" alt="">
+            <div class="brand-name">Eni J. Asebiomo</div>
+            <hr class="colored">
+            <div class="brand-name-subtext">Site Under Construction</div>
+        </div>
+        <div class="scroll-down">
+            <a class="btn page-scroll" href="#about"><i class="fa fa-angle-down fa-fw"></i></a>
         </div>
     </header>
 
-    <!-- About -->
-    <section id="about" class="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <img style="height:auto; width:auto; max-width:150px; max-height:150px; align:middle" src="img/profile.jpg"
-   class="img-circle">
-                    <h2>eniway (noun) - a path; a way of life</h2>
-                    <p class="lead">Hi! I'm Eni, a Junior at Stanford studying Mechanical Engineering &amp; Computer Science.<br> I love working with people, and I always make sure to bring energy and enthusiasm to my group projects. I love going to Hackathons - programming gets me excited and I'm passionate about learning to work with hardware - which is why I'm planning to combine the two in a Mechatronics focused major. <br> I am currently seeking a position for the summer of 2017.</p>
-                </div>
-            </div>
-            <!-- /.row -->
-        </div>
-        <!-- /.container -->
-    </section>
-    
-            <!-- CogBox -->
-    <aside class="call-to-action bg-primary">
-        <div id="cogbox">
-            <i class="fa fa-cog fa-spin fa-2x"></i>
-            <i class="fa fa-cog fa-spin fa-3x"></i>
-            <i class="fa fa-cog fa-spin fa-4x"></i>
-            <i class="fa fa-cog fa-spin fa-3x"></i>
-            <i class="fa fa-cog fa-spin fa-2x"></i>
-        </div>
-    </aside> 
+    <!-- Core Scripts -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
 
-        <!-- Portfolio -->
-    <section id="portfolio" class="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2>What I Do</h2>
-                    <hr class="small">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <h3><strong>Stanford Robotics Club</strong></h3>
-                                <a href="http://roboticsclub.stanford.edu" target="_blank">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-1.jpg">
-                                </a>
-                                <br>
-                                <p>I recently became Co-Presidents of Stanford Robotics Club with <a href="https://www.linkedin.com/in/meghanavrao">my best friend</a>. We have a lot of amazing new ideas, and we're super excited to see what we can do with it in the next year.</p>    
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <h3><strong>My Summer at Twitter</strong></h3>
-                                <a href="https://twitter.com/twitter/status/651112104112492544" target="_blank">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-2.jpg">
-                                </a>
-                                <br>
-                                <p>Over the summer I interned at Twitter doing Software Engineering on the Direct Messages-Frontend team. My team ended up <a href="https://twitter.com/twitter/status/651112104112492544">shipping a project</a> that I worked on and developed ideas for.</p>
-                            </div>
-                        </div>
-            <h3><strong>My Summer at Autodesk</strong></h3>
-                        <div class="col-md-6">
-                            
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-3.jpg">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-4.jpg">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-            
-                    <!--/.row (nested) -->
-<!--                    <a href="#" class="btn btn-dark">View More Items</a>-->
-                </div>
-                <!-- /.col-lg-10-->
-            </div>
-            <!-- /.row -->
-        </div>
-        <!-- /.container -->
-    </section> 
+    <!-- Plugin Scripts -->
+    <script src="vendor/jquery.easing/jquery.easing.min.js"></script>
+    <script src="vendor/owl-carousel/owl.carousel.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="vendor/formstone/core.js"></script>
+    <script src="vendor/formstone/transition.js"></script>
+    <script src="vendor/formstone/background.js"></script>
+    <script src="vendor/mixitup/jquery.mixitup.js"></script>
+    <script src="vendor/wow/wow.min.js"></script>
 
-    <!-- Services -->
-    <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
-    <section id="services" class="services bg-primary">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-lg-10 col-lg-offset-1">
-                    <h2>My Projects</h2>
-                    <hr class="small">
-                    <div class="row">
-                        </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="service-item">
-                            <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-stack-overflow fa-stack-1x text-primary"></i>
-                            </span>
-                                <h4>
-                                    <strong>Stackit</strong>
-                                </h4>
-                                    <p>Sends smart StackOverflow queries from the command line.
-                                    Created at SB Hacks 2015.</p>
-                                    <a href="https://github.com/lukasschwab/stackit" class="btn btn-light">Get Stacked</a>
-                        </div>
-                    </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-github fa-stack-1x text-primary"></i>
-                                </span>
-                                <h4>
-                                    <strong>Github</strong>
-                                </h4>
-                                <p>An online collection of my coding projects and assignments</p>
-                                <br>
-                                <a href="https://github.com/eniasebiomo" class="btn btn-light">My Github</a>
-                            </div>
-                        </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="service-item">
-                            <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-code fa-stack-1x text-primary"></i>
-                            </span>
-                            <h4>
-                                <strong>This Website</strong>
-                            </h4>
-                            <p>I learned the basics of HTML and CSS building this website with BootStrap and hosting it on Github</p>
-                            <a href="http://www.getbootstrap.com" class="btn btn-light">BootStrap</a>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-print fa-stack-1x text-primary"></i>
-                                </span>
-                                <h4>
-                                    <strong>ChocoBot</strong>
-                                </h4>
-                                <p>Some friends and I assembled a 3D printer, and now we're modifying it to print in chocolate</p>
-                                <a class="btn btn-light">Ongoing</a>
-                            </div>
-                        </div>
-                       <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-gamepad fa-stack-1x text-primary"></i>
-                                </span>
-                                <h4>
-                                    <strong>PipeTeam</strong>
-                                </h4>
-                                <p>A multiplayer game that uses mobile devices as controllers. 
-                                Created at HackGT 2015</p>
-                                <a href="https://github.com/kaylamg/HackGT" class="btn btn-light">Pipe It Up</a>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                        <div class="service-item">
-                            <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-wrench fa-stack-1x text-primary"></i>
-                            </span>
-                            <h4>
-                                <strong>Other Websites</strong>
-                            </h4>
-                            <p>I've been in charge of putting up a slew of other websites where I learned about DNS Settings and Squarespace.</p>
-                            <a href="http://roboticsclub.stanford.edu/" class="btn btn-light">Robotics Club</a>
-                            <br></br>
-                            <a href="assu16.squarespace.com" class="btn btn-light">Stanford ASSU</a>
-                        </div>
-                    </div>
-<!--
-                <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-rocket fa-stack-1x text-primary"></i>
-                                </span>
-                                <h4>
-                                    <strong>Hyperloop Pod Design</strong>
-                                </h4>
-                                <p>I'm a junior member on Stanford's Hyperloop Pod Design Team - A competition put on by SpaceX</p>
-                                <a href="http://www.spacex.com/hyperloop" class="btn btn-light">Pod Design Competition</a>
-                            </div>
-                        </div>
--->
-                    
-                    <!-- /.row (nested) -->
-                </div>
-                <!-- /.col-lg-10 -->
-            </div>
-            <!-- /.row -->
-        </div>
-        <!-- /.container -->
-    </section>
+    <!-- Contact Form Scripts -->
+    <script src="js/contact_me.js"></script>
+    <script src="js/jqBootstrapValidation.js"></script>
 
-
-    <!-- Map -->
-<!--
-    <section id="contact" class="map">
-        <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
-        <br />
-        <small>
-            <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
-        </small>
-        </iframe>
-    </section>
--->
-    
-            <!-- CogBox -->
-<!--
-    <aside class="call-to-action bg-primary">
-        <div id="cogbox">
-            <i class="fa fa-cog fa-spin fa-2x"></i>
-            <i class="fa fa-cog fa-spin fa-2x"></i>
-            <i class="fa fa-cog fa-spin fa-2x"></i>
-            <i class="fa fa-cog fa-spin fa-2x"></i>
-            <i class="fa fa-cog fa-spin fa-2x"></i>
-        </div>
-    </aside> 
--->
-    
-            <!-- Callout -->
-    <aside id="portfolio" class="callout">
-        <div class="text-vertical-center">
-            <h1>More Projects Coming Soon</h1>
-        </div>
-    </aside>
-        
-        <!-- CogBox -->
-    <aside class="call-to-action bg-primary">
-        <div id="cogbox">
-            <i class="fa fa-wrench fa-spin fa-2x"></i>
-            <i class="fa fa-cog fa-spin fa-3x"></i>
-            <i class="fa fa-wrench fa-spin fa-4x"></i>
-            <i class="fa fa-cog fa-spin fa-3x"></i>
-            <i class="fa fa-wrench fa-spin fa-2x"></i>
-        </div>
-    </aside> 
-
-    <!-- Footer -->
-    <footer class="text-center">
-        <div id ="contact" class="footer-above">
-            <div class="container">
-                <div class="row">
-                    <div class="footer-col col-md-4">
-                        <h3>Around the Web</h3>
-                        <ul class="list-inline">
-                            <li>
-                                <a href="https://instagram.com/eniwaffle" class="btn-social btn-outline"><i class="fa fa-fw fa-instagram"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://github.com/eniasebiomo" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://twitter.com/eniwaffles" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://www.linkedin.com/in/eniasebiomo" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
-                            </li>
-
-                        </ul>
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h2>Contact Me!</h2>
-                            <ul class="list-inline">
-                                <a href="mailto:eniolufe@stanford.edu" class="btn btn-lg btn-light text-primary">
-                                    <i class="fa fa-envelope-o fa-2x"></i> Email</a>
-                                <a href='resume.pdf' class="btn btn-lg btn-light text-primary">
-                                    <i class="fa fa-file-text-o fa-2x"></i> Resume</a>
-                            </ul>
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h3>Location</h3>
-                        <p>Stanford University<br>Stanford, CA</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-<!--
-        <div class="footer-below">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        Copyright &copy; Eni Asebiomo 2015
-                    </div>
-                </div>
-            </div>
-        </div>
--->
-    </footer>
-
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Custom Theme JavaScript -->
-    <script>
-    // Closes the sidebar menu
-    $("#menu-close").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
-    });
-
-    // Opens the sidebar menu
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
-    });
-
-    // Scrolls to the selected menu item on the page
-    $(function() {
-        $('a[href*=#]:not([href=#])').click(function() {
-            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
-
-                var target = $(this.hash);
-                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                if (target.length) {
-                    $('html,body').animate({
-                        scrollTop: target.offset().top
-                    }, 1000);
-                    return false;
-                }
-            }
-        });
-    });
-    </script>
-    
-    <!-- Google Analytics -->
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-60250323-1', 'auto');
-      ga('send', 'pageview');
-
-    </script>
+    <!-- Vitality Theme Scripts -->
+    <script src="js/vitality.js"></script>
 
 </body>
 
