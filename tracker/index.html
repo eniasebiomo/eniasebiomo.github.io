@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>EniTracker&trade;</title>
+
+    <!-- Create Icon -->
+    <!--    <link rel="shortcut icon" href="/rocket.ico" type="image/x-icon">-->
+
+    <!-- Sytlesheet -->
+    <link href="css/tracker.css" rel="stylesheet" type="text/css">
+
+    <!-- Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+
+</head>
+
+<body>
+    <div class="center-tab">
+        <div class="title text">
+            <h1>Welcome to EniTracker&trade;!</h1>
+        </div>
+        <div class="text">
+            <p> V 1.0 - teleportation</p>
+        </div>
+        <div class="text">
+            <p>Eni is currently in <b id='eni-location'>bed</b></p>
+        </div>
+        <div class="btn">
+            <input type="button" onclick="changeLocation1()" value="Change Location to Class"/>
+        </div>
+        <br>
+        <div class="btn">
+            <input type="button" onclick="changeLocation2()" value="Change Location to:"/>
+            <input type="text" id="userInput" value="Enter alt location here"/>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/location.js"></script>
+</body>
+</html>

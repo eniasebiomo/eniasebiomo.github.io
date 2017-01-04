@@ -1,0 +1,21 @@
+html,
+body {
+    height: 100%;
+}
+
+.center-tab {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.center-tab .text {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.center-tab .title {
+    font-weight: 700;
+    text-transform: uppercase;
+}
