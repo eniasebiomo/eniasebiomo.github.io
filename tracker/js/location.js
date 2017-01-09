@@ -1,3 +1,4 @@
+
 function changeLocation1() {
     document.getElementById('eni-location').innerHTML = 'class!';
 }
