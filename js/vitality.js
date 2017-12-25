@@ -46,6 +46,11 @@ $(document).ready(function() {
         $('.navbar-toggle:visible').click();
     });
 
+    $(".linkBox").click(function() {
+        window.open($(this).find("a").attr("link"), '_blank'); 
+        return false;
+    });
+
     // Owl Carousel Settings
     $(".about-carousel").owlCarousel({
         items: 3,
